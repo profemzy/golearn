@@ -1,0 +1,3 @@
+	// rune is an int32
+	r := 'a'
+	fmt.Printf("%v, %T\n", r, r)

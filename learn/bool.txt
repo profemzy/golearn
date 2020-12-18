@@ -1,0 +1,14 @@
+var n = true
+	fmt.Printf("%v, %T\n", n, n)
+
+	d := 2 == 1
+	fmt.Printf("%v, %T\n", d, d)
+
+	a := 10
+	b := 3
+
+	fmt.Println(a + b)
+	fmt.Println(a - b)
+	fmt.Println(a / b)
+	fmt.Println(a * b)
+	fmt.Println(a % b)

@@ -1,0 +1,6 @@
+	s1 := "this is some string "
+	s2 := "and yet another string"
+	b := []byte(s1)
+	fmt.Printf("%v, %T\n", string(s1[2]), string(s1[2]))
+	fmt.Println(s1 + s2)
+	fmt.Printf("%v, %T\n", b, b)
